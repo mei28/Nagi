@@ -1,0 +1,64 @@
+# ==== Xcode ====
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ==== Swift Package Manager ====
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# ==== LSP / xcode-build-server ====
+# buildServer.json は設定なのでコミットする
+# compile_commands.json は生成物なので無視
+compile_commands.json
+
+# ==== Swift ランタイム生成物 ====
+*.profraw
+*.profdata
+
+# ==== macOS ====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ==== Editor ====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==== 一時メモ ====
+.tmp/
+
+# ==== 配布物 ====
+dist/
+
+# ==== Claude Code ローカル設定 ====
+.claude/settings.local.json
+
+# ==== ローカル専用 ====
+.env
+.env.local
+.bonsai/
+
+# ==== 公開しない内部ドキュメント（ローカルのみ保持） ====
+SPEC.md
+docs/
+CLAUDE.md

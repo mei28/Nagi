@@ -1,0 +1,348 @@
+{
+  "sourceLanguage" : "en",
+  "version" : "1.0",
+  "strings" : {
+    "About" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "About" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "このアプリについて" } }
+      }
+    },
+    "Add session" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Add session" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "セッションを追加" } }
+      }
+    },
+    "Break complete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Break complete" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "休憩終了" } }
+      }
+    },
+    "Break ratio" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Break ratio" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "休憩比率" } }
+      }
+    },
+    "Calendar" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Calendar" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "カレンダー" } }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Cancel" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "キャンセル" } }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Continue" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "続行" } }
+      }
+    },
+    "Data" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Data" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "データ" } }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "削除" } }
+      }
+    },
+    "Delete all" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete all" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "全削除" } }
+      }
+    },
+    "Delete all sessions" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete all sessions" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "全セッションを削除" } }
+      }
+    },
+    "Delete all sessions?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete all sessions?" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "全セッションを削除しますか?" } }
+      }
+    },
+    "Delete session" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete session" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "セッションを削除" } }
+      }
+    },
+    "Delete session?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Delete session?" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "セッションを削除しますか?" } }
+      }
+    },
+    "Edit session" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Edit session" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "セッションを編集" } }
+      }
+    },
+    "End" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "End" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "終了" } }
+      }
+    },
+    "End break" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "End break" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "休憩終了" } }
+      }
+    },
+    "End time must be after start time." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "End time must be after start time." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "終了時刻は開始時刻より後である必要があります。" } }
+      }
+    },
+    "English" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "English" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "English" } }
+      }
+    },
+    "Export…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Export…" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "エクスポート…" } }
+      }
+    },
+    "Final confirmation. This action cannot be undone." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Final confirmation. This action cannot be undone." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "最終確認: この操作は取り消せません。" } }
+      }
+    },
+    "History" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "History" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "履歴" } }
+      }
+    },
+    "How to use" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "How to use" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "使い方" } }
+      }
+    },
+    "Import…" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Import…" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "インポート…" } }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Language" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "言語" } }
+      }
+    },
+    "License" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "License" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ライセンス" } }
+      }
+    },
+    "Merge" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Merge" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "マージ" } }
+      }
+    },
+    "New session" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "New session" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "新規セッション" } }
+      }
+    },
+    "No sessions" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No sessions" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "セッションなし" } }
+      }
+    },
+    "No sessions yet" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "No sessions yet" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "まだセッションがありません" } }
+      }
+    },
+    "Note" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Note" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "メモ" } }
+      }
+    },
+    "Notification" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notification" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "通知" } }
+      }
+    },
+    "Notifications" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Notifications" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "通知" } }
+      }
+    },
+    "Replace existing" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Replace existing" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "既存を置換" } }
+      }
+    },
+    "Replace or merge?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Replace or merge?" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "置換しますか? それともマージしますか?" } }
+      }
+    },
+    "Restart the app to fully apply the language change." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Restart the app to fully apply the language change." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "言語切替を完全に反映するにはアプリを再起動してください。" } }
+      }
+    },
+    "Rotation" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Rotation" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "1 周時間" } }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Save" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "保存" } }
+      }
+    },
+    "Select a date" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Select a date" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "日付を選択" } }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Settings" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "設定" } }
+      }
+    },
+    "Skip" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Skip" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "スキップ" } }
+      }
+    },
+    "Sound" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sound" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "サウンド" } }
+      }
+    },
+    "Start" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Start" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "開始" } }
+      }
+    },
+    "Start a session from the Timer tab to begin tracking." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Start a session from the Timer tab to begin tracking." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Timer タブからセッションを開始すると、ここに履歴が表示されます。" } }
+      }
+    },
+    "Start break" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Start break" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "休憩を開始" } }
+      }
+    },
+    "Stop" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Stop" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "停止" } }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "System" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "システム" } }
+      }
+    },
+    "Tap a day to see its sessions." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Tap a day to see its sessions." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "日付をタップしてセッションを表示。" } }
+      }
+    },
+    "This action cannot be undone." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "This action cannot be undone." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "この操作は取り消せません。" } }
+      }
+    },
+    "Time to get back to it." : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Time to get back to it." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "作業に戻りましょう。" } }
+      }
+    },
+    "Timer" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Timer" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タイマー" } }
+      }
+    },
+    "Today" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Today" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "今日" } }
+      }
+    },
+    "Yesterday" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Yesterday" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "昨日" } }
+      }
+    },
+    "in progress" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "in progress" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "進行中" } }
+      }
+    },
+    "remaining" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "remaining" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "残り" } }
+      }
+    },
+    "suggested break" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "suggested break" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "推奨休憩時間" } }
+      }
+    },
+    "What were you working on?" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "What were you working on?" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "何に取り組んでいましたか?" } }
+      }
+    }
+  }
+}

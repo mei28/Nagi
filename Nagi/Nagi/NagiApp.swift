@@ -1,26 +1,44 @@
 import SwiftUI
 import SwiftData
+import AppKit
 
+/// メニューバー常駐アプリ。Dock アイコンは出さず、フルウィンドウは
+/// メニューバーの「Open Nagi…」から開く ([`AppDelegate`] が制御)。
 @main
 struct NagiApp: App {
-    /// TimerEngine は App レベルで保持して WindowGroup と MenuBarExtra で共有する。
+    @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
+
+    /// TimerEngine は App レベルで保持して Window と MenuBarExtra で共有する。
     @State private var engine = TimerEngine()
 
-    init() {
-        Task { @MainActor in
-            await NotificationService.shared.requestAuthorization()
+    /// SwiftData コンテナは 1 つだけ生成して全シーンで共有する。
+    /// シーンごとに `.modelContainer(for:)` を付けると別インスタンスになり、
+    /// 片方の変更がもう片方の `@Query` にライブ反映されない。
+    private let container: ModelContainer = {
+        do {
+            return try ModelContainer(for: Session.self)
+        } catch {
+            fatalError("Failed to create ModelContainer: \(error)")
         }
+    }()
+
+    init() {
+        // Dock アイコンと標準メニューを出さないメニューバー常駐アプリにする。
+        // init で設定することで起動時の Dock アイコン点滅を抑える。
+        NSApplication.shared.setActivationPolicy(.accessory)
     }
 
     var body: some Scene {
-        WindowGroup {
+        // フルウィンドウ (単一インスタンス)。起動時は AppDelegate が閉じ、
+        // 「Open Nagi…」で openWindow(id:) から開く。
+        Window("Nagi", id: WindowID.main) {
             ContentView(engine: engine)
         }
-        .modelContainer(for: Session.self)
+        .modelContainer(container)
 
         MenuBarExtra {
             TimerMenuBarContent(engine: engine)
-                .modelContainer(for: Session.self)
+                .modelContainer(container)
         } label: {
             menuBarIcon
         }
@@ -58,4 +76,9 @@ struct NagiApp: App {
         case .onBreak: String(localized: "Nagi — on break")
         }
     }
+}
+
+/// SwiftUI シーンの識別子。
+enum WindowID {
+    static let main = "main"
 }

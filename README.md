@@ -1,5 +1,9 @@
 # Nagi (凪)
 
+<p align="center">
+  <img src="assets/hero.svg" alt="Nagi — a flow-time work-session tracker. Work in flow, rest in proportion." width="100%">
+</p>
+
 English | [日本語](./README.ja.md)
 
 > A flow-time work-session tracker that respects your natural working rhythm. macOS only.

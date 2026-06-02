@@ -1,5 +1,9 @@
 # Nagi（凪）
 
+<p align="center">
+  <img src="assets/hero.svg" alt="Nagi（凪）— フロータイム式の作業時間管理アプリ。自然に作業し、作業時間に比例して休む。" width="100%">
+</p>
+
 [English](./README.md) | 日本語
 
 > 自然な作業リズムを尊重するフロータイム式の作業時間管理アプリ。macOS 専用。

@@ -10,6 +10,7 @@ import AppKit
 struct TimerMenuBarContent: View {
     @Bindable var engine: TimerEngine
     @Environment(\.modelContext) private var modelContext
+    @Environment(\.openWindow) private var openWindow
 
     @AppStorage("breakRatio") private var breakRatio: Double = 0.20
     @AppStorage("notificationEnabled") private var notificationEnabled: Bool = true
@@ -180,11 +181,15 @@ struct TimerMenuBarContent: View {
         }
     }
 
+    /// フルウィンドウを開く。
+    ///
+    /// 常駐中は `.accessory` (Dock 非表示) なので、ウィンドウを出す間だけ
+    /// `.regular` にして標準メニューバーとフォーカスを得る。閉じると
+    /// [`AppDelegate`] が `.accessory` に戻す。
     private func openMainWindow() {
+        NSApp.setActivationPolicy(.regular)
+        openWindow(id: WindowID.main)
         NSApp.activate(ignoringOtherApps: true)
-        for window in NSApp.windows where window.canBecomeMain {
-            window.makeKeyAndOrderFront(nil)
-        }
     }
 
     // MARK: - Actions

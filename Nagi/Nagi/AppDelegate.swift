@@ -65,3 +65,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 }
+
+private extension NSWindow {
+    /// フルウィンドウ (タイトルバー付き) かどうか。
+    /// MenuBarExtra のポップアップは borderless なので false になる。
+    var isMainWindowCandidate: Bool {
+        styleMask.contains(.titled)
+    }
+}

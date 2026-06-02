@@ -36,11 +36,15 @@ Nagi is a native SwiftUI rewrite of Fathom (a Tauri + React prototype).
 brew install --cask mei28/nagi/nagi
 ```
 
-The app is unsigned, so Gatekeeper may block it on first launch. If so, install without the quarantine attribute:
+The app is unsigned (ad-hoc), so macOS quarantines it and Gatekeeper blocks the first launch. After installing, do one of:
 
-```sh
-brew install --cask --no-quarantine mei28/nagi/nagi
-```
+- Right-click `/Applications/Nagi.app` → **Open**, then confirm in the dialog, **or**
+- System Settings → Privacy & Security → **Open Anyway**, **or**
+- clear the quarantine attribute, then open normally:
+
+  ```sh
+  xattr -dr com.apple.quarantine /Applications/Nagi.app
+  ```
 
 ### Manual (zip)
 

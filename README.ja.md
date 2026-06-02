@@ -36,11 +36,15 @@ Nagi は Fathom（Tauri+React 製プロトタイプ）を SwiftUI でネイテ�
 brew install --cask mei28/nagi/nagi
 ```
 
-未署名アプリなので、初回は Gatekeeper でブロックされることがあります。その場合は隔離属性を外して入れてください。
+未署名（ad-hoc）アプリなので、macOS が隔離属性を付け初回起動が Gatekeeper でブロックされます。インストール後、次のいずれかで起動を許可してください:
 
-```sh
-brew install --cask --no-quarantine mei28/nagi/nagi
-```
+- `/Applications/Nagi.app` を右クリック → **開く** → ダイアログで確認、または
+- システム設定 → プライバシーとセキュリティ → **このまま開く（Open Anyway）**、または
+- 隔離属性を外してから通常起動:
+
+  ```sh
+  xattr -dr com.apple.quarantine /Applications/Nagi.app
+  ```
 
 ### 手動 (zip)
 

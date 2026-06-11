@@ -5,7 +5,7 @@ import Foundation
 /// - `breakRatio`: 1〜100%。既定 0.20 (= 20%)
 /// - `rotationMinutes`: 円形タイマー 1 周の長さ。{1, 15, 30, 60}。既定 30
 /// - `language`: "ja" / "en" / "system"。既定 "system" (起動時に Locale から解決)
-struct Preferences: Codable, Equatable {
+nonisolated struct Preferences: Codable, Equatable {
     var breakRatio: Double
     var rotationMinutes: Int
     var notificationEnabled: Bool
